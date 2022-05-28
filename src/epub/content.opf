@@ -46,15 +46,17 @@
 		<meta property="term" refines="#subject-3">Unknown</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">This is an English adaptation of the popular “Baital Pachisi” consisting of eleven tales told by Baital to trap King Vikram.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Adapted from &lt;i&gt;Baital Pachisi&lt;/i&gt; in Sanskrit to English by &lt;a href="https://standardebooks.org/ebooks/sir-richard-francis-burton"&gt;Sir Richard &lt;abbr&gt;F.&lt;/abbr&gt; Burton&lt;/a&gt;, the book consists of eleven Hindu tales. Sir Richard &lt;abbr&gt;F.&lt;/abbr&gt; Burton was an eminent British explorer speaking more than twenty languages and famous for the detailed footnotes in his writings.&lt;/p&gt;
+			&lt;p&gt;A tantric Jogi is after King Vikram’s life because of the wrong-doings of his father. He fools the brave king to bring Baital (a vampire) hanging from a &lt;i&gt;siras&lt;/i&gt;-tree back to him. Baital in turn traps the king in an endless loop of stories. If King Vikram answers any question posed by the vampire during his story-telling, he will escape back to the tree and the king will have to start all over again. Will Vikram be able to escape Baital’s trap? What doom awaits when the king finally meets his nemesis?&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/48511</dc:source>
 		<dc:source>https://archive.org/details/vikramvampireort00burt/</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
-		<meta property="se:word-count">72452</meta>
+		<dc:source>https://archive.org/details/vikramvampireort1893burt/</dc:source>
+		<meta property="se:production-notes">Scans from two editions were used to produce the book. The content is based on the original edition published in 1870. Minor issues like punctuations have been corrected using the second edition published in 1893. Additionally, spellings have been modernised and ligatures have been removed.</meta>
+		<meta property="se:word-count">72451</meta>
 		<meta property="se:reading-ease.flesch">65.05</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Vikram_and_the_Vampire</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/sir-richard-francis-burton_vikram-and-the-vampire</meta>

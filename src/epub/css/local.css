@@ -89,8 +89,7 @@ section[epub|type~="dedication"] > span.h4{
 
 /* All epigraphs */
 [epub|type~="epigraph"]{
-	hyphens: none;
-	-epub-hyphens: none;
+	font-style: normal;
 }
 
 [epub|type~="epigraph"] i{
@@ -103,14 +102,11 @@ section[epub|type~="dedication"] > span.h4{
 	margin-top: 1em;
 }
 
-[epub|type~="epigraph"] cite i{
+[epub|type~="epigraph"] cite i[epub|type~="se:name.publication.book"]{
 	font-style: italic;
-}
-/* End all epigraphs */
-
-[epub|type~="epigraph"] cite i[epub|type~="se:name.person.pen-name"]{
 	font-variant: normal;
 }
+/* End all epigraphs */
 
 /* Full-page epigraphs */
 section[epub|type~="epigraph"]{

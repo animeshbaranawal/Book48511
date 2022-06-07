@@ -33,3 +33,7 @@ p span.i4{
 p.noindent{
 	text-indent: 0em;
 }
+
+abbr[epub|type~="se:era"]{
+	font-variant: all-small-caps;
+}

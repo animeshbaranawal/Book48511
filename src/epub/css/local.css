@@ -57,6 +57,23 @@ section[epub|type~="dedication"] > *{
 	max-width: 80%;
 }
 
+section[epub|type~="dedication"] > span{
+	font-variant: all-small-caps;
+	text-indent: 0;
+}
+
+section[epub|type~="dedication"] > span.h1{
+	font-size: x-large;
+}
+
+section[epub|type~="dedication"] > span.h2{
+	font-size: medium;
+}
+
+section[epub|type~="dedication"] > span.h4{
+	font-size: x-small;
+}
+
 @supports(display: flex){
 	section[epub|type~="dedication"]{
 		align-items: center;

@@ -54,17 +54,17 @@ section[epub|type~="dedication"] > *{
 }
 
 section[epub|type~="dedication"] > p{
-	font-size: x-small;
+	font-size: 1em;
 	font-variant: all-small-caps;
 	text-indent: 0;
 }
 
 section[epub|type~="dedication"] > p:nth-of-type(6n-5){
-	font-size: medium;
+	font-size: 1.5em;
 }
 
 section[epub|type~="dedication"] > p:nth-of-type(6n-4){
-	font-size: x-large;
+	font-size: 2em;
 }
 
 @supports(display: flex){

@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="dedication.xhtml">
+		<ignore>
+			<code>t-017</code>
+			<reason>Bold is meant to style the entire line.</reason>
+		</ignore>
+	</file>
 	<file path="introduction.xhtml">
 		<ignore>
 			<code>s-036</code>

@@ -53,18 +53,12 @@ section[epub|type~="dedication"] > *{
 	max-width: 80%;
 }
 
-section[epub|type~="dedication"] > p{
-	font-size: 1.0em;
-	font-variant: all-small-caps;
-	text-indent: 0;
+section[epub|type~="dedication"] p{
+	font-variant: small-caps;
 }
 
-section[epub|type~="dedication"] > p:nth-of-type(6n-5){
+section[epub|type~="dedication"] b{
 	font-size: 1.25em;
-}
-
-section[epub|type~="dedication"] > p:nth-of-type(6n-4){
-	font-size: 1.6em;
 }
 
 @supports(display: flex){
